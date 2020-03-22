@@ -1,7 +1,7 @@
 import "./bootstrap.js";
 import CMS, { init } from "netlify-cms";
 import "netlify-cms/dist/cms.css";
-import { BNLInventoryControl, BNLInventoryPreview } from "../src";
+import { InventoryControl, InventoryPreview } from "../src";
 
 const config = {
   backend: {
@@ -27,6 +27,6 @@ const config = {
   ]
 };
 
-CMS.registerWidget("test", BNLInventoryControl, BNLInventoryPreview);
+CMS.registerWidget("test", InventoryControl, InventoryPreview);
 
 init({ config });

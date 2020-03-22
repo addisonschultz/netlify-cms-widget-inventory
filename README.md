@@ -13,7 +13,7 @@ npm install --save netlify-cms-widget-inventory
 ```js
 import <name> from 'netlify-cms-widget-inventory'
 
-CMS.registerWidget('inventory', <name>Control, <name>Preview)
+CMS.registerWidget('inventory', InventoryControl, InventoryPreview)
 ```
 
 Via `script` tag:
@@ -22,7 +22,7 @@ Via `script` tag:
 <script src="https://unpkg.com/netlify-cms-widget-inventory@^1.0.0"></script>
 
 <script>
-  CMS.registerWidget('inventory', <name>Control, <name>Preview)
+  CMS.registerWidget("inventory", InventoryControl, InventoryPreview);
 </script>
 ```
 

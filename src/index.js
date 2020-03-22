@@ -2,8 +2,8 @@ import Control from "./Control";
 import Preview from "./Preview";
 
 if (typeof window !== "undefined") {
-  window.BNLInventoryControl = Control;
-  window.BNLInventoryPreview = Preview;
+  window.InventoryControl = Control;
+  window.InventoryPreview = Preview;
 }
 
-export { Control as BNLInventoryControl, Preview as BNLInventoryPreview };
+export { Control as InventoryControl, Preview as InventoryPreview };
