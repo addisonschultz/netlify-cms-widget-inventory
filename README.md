@@ -1,6 +1,6 @@
 # netlify-cms-widget-inventory
 
-Overview of what your widget does.
+A widget that lets you add inventory key/value pairs (like size & quantity for example) to netlify cms. Useful for inventory needs. I made this pretty customized for the project I'm working on, but feel free to reach out if you need help implementing this to your own project.
 
 ## Install
 
